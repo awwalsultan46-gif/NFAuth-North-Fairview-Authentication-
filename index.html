@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NFAuth · North Fairview Authentication</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════ INTRO SPLASH ═══════════ -->
+<div id="intro" aria-hidden="true">
+  <div class="intro-bg">
+    <span class="orb"></span><span class="orb"></span><span class="orb"></span>
+  </div>
+  <div class="intro-inner">
+    <svg class="intro-mark" viewBox="0 0 140 140">
+      <defs>
+        <linearGradient id="gm" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#F2B632"/>
+          <stop offset="100%" stop-color="#17A05B"/>
+        </linearGradient>
+      </defs>
+      <circle class="im-ring" cx="70" cy="70" r="60"/>
+      <path class="im-cap" d="M70 34 116 54 70 74 24 54Z"/>
+      <path class="im-base" d="M44 66v18c0 8 52 8 52 0V66"/>
+      <path class="im-tassel" d="M112 58v22"/>
+    </svg>
+    <h1 class="intro-title">NFAuth</h1>
+    <p class="intro-sub">North Fairview Authentication</p>
+    <div class="intro-bar"><i></i></div>
+  </div>
+</div>
+
+<div id="app"></div>
+<div id="m" class="modal" hidden role="dialog" aria-modal="true" aria-label="Student view"></div>
+<div id="t" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
